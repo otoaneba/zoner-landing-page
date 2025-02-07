@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: #F5F7FA;
+}
+
+.footer-content {
+  max-width: 600px;
+}
+
+.navbar-brand {
+  padding-left: 0.5rem;
+}
