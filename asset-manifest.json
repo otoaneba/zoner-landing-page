@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zoner-landing-page/static/css/main.10868775.css",
-    "main.js": "/zoner-landing-page/static/js/main.ee4ee10d.js",
+    "main.css": "/zoner-landing-page/static/css/main.1f5d09b5.css",
+    "main.js": "/zoner-landing-page/static/js/main.bf14338f.js",
     "static/js/488.ba4a0dea.chunk.js": "/zoner-landing-page/static/js/488.ba4a0dea.chunk.js",
     "static/media/airplane2.jpg": "/zoner-landing-page/static/media/airplane2.2315201f9b17bdb001b1.jpg",
     "static/media/consultant.jpg": "/zoner-landing-page/static/media/consultant.ca088b7f073e27510157.jpg",
     "static/media/nightshift.jpg": "/zoner-landing-page/static/media/nightshift.cae5939ed7f7556460ad.jpg",
     "static/media/freelance.jpg": "/zoner-landing-page/static/media/freelance.a6a0ffd13f9ebad514d4.jpg",
     "index.html": "/zoner-landing-page/index.html",
-    "main.10868775.css.map": "/zoner-landing-page/static/css/main.10868775.css.map",
-    "main.ee4ee10d.js.map": "/zoner-landing-page/static/js/main.ee4ee10d.js.map",
+    "main.1f5d09b5.css.map": "/zoner-landing-page/static/css/main.1f5d09b5.css.map",
+    "main.bf14338f.js.map": "/zoner-landing-page/static/js/main.bf14338f.js.map",
     "488.ba4a0dea.chunk.js.map": "/zoner-landing-page/static/js/488.ba4a0dea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10868775.css",
-    "static/js/main.ee4ee10d.js"
+    "static/css/main.1f5d09b5.css",
+    "static/js/main.bf14338f.js"
   ]
 }
