@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/ClientSection.css';
 
-const ClientSection = () => {
+const ClientSection = ({ onOpenModal }) => {
   return (
     <section className="client-section">
       <h2>Who Is This For?</h2>
@@ -39,8 +39,7 @@ const ClientSection = () => {
         <h2>Join 1,000+ Professionals Optimizing Their Sleep Today!</h2>
         <p>🚀 Sign up for early access & get a free Sleep Optimization Guide!</p>
         <div className="email-signup">
-          <input type="email" placeholder="Enter your email" />
-          <button className="signup-button">Get My Free Guide</button>
+          <button className="signup-button" onClick={onOpenModal}>Get My Free Guide</button>
         </div>
       </div>
     </section>

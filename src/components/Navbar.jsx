@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPepperHot } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => {
+const Navbar = ({ onOpenModal }) => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -26,14 +26,14 @@ const Navbar = () => {
           e.preventDefault();
           scrollToSection('home');
         }}>Home</a>
-        <a href="#features" onClick={(e) => {
-          e.preventDefault();
-          scrollToSection('features');
-        }}>Features</a>
         <a href="#community" onClick={(e) => {
           e.preventDefault();
           scrollToSection('community');
         }}>Community</a>
+        <a href="#features" onClick={(e) => {
+          e.preventDefault();
+          scrollToSection('features');
+        }}>Features</a>
         {/* <a href="#blog" onClick={(e) => {
           e.preventDefault();
           scrollToSection('blog');
@@ -44,7 +44,12 @@ const Navbar = () => {
         }}>Pricing</a> */}
       </div>
       <div className="navbar-cta">
-        <button className="register-button">Register Now →</button>
+        <button 
+          className="register-button"
+          onClick={onOpenModal}
+        >
+          Get My Free Guide →
+        </button>
       </div>
     </nav>
   );

@@ -1,18 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Hero.css';
-import Modal from './Modal';
-// import heroImage from '../assets/hero-illustration.svg';  // If you have this
 
-const Hero = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleSubmit = (data) => {
-    // Handle form submission here
-    console.log('Form submitted:', data);
-    setIsModalOpen(false);
-    // You can add API call or other logic here
-  };
-
+const Hero = ({ onOpenModal }) => {
   return (
     <div className="hero">
       <div className="hero-content">
@@ -24,7 +13,7 @@ const Hero = () => {
         <div className="cta-group">
           <button 
             className="register-button"
-            onClick={() => setIsModalOpen(true)}
+            onClick={onOpenModal}
           >
             SEND ME THE GUIDE
           </button>
@@ -35,12 +24,6 @@ const Hero = () => {
       <div className="hero-image">
         <img src="" alt="Sleep Schedule App Interface" />
       </div>
-      
-      <Modal 
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        onSubmit={handleSubmit}
-      />
     </div>
   );
 };
