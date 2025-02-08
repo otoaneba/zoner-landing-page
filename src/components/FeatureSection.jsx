@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/FeatureSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLightbulb, faBell, faChartLine, faMobile, faBrain, faRobot, faBoltLightning } from '@fortawesome/free-solid-svg-icons';
+import { faBrain, faRobot, faBoltLightning } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-regular-svg-icons';
 const FeatureSection = () => {
   return (
