@@ -8,15 +8,15 @@ const ClientSection = () => {
       
       <div className="user-types">
         <div className="user-type healthcare">
-          <h3>🔹 Night Shift Workers & Healthcare Staff</h3>
+          <h3>Night Shift Workers & Healthcare Staff</h3>
           <p>Adjust to overnight shifts without extreme fatigue.</p>
         </div>
         <div className="user-type consultant">
-          <h3>🔹 Consultants & Business Travelers</h3>
+          <h3>Consultants & Business Travelers</h3>
           <p>Stay productive while juggling unpredictable work schedules.</p>
         </div>
         <div className="user-type freelancer">
-          <h3>🔹 Freelancers & Remote Workers</h3>
+          <h3>Freelancers & Remote Workers</h3>
           <p>Optimize your sleep schedule for peak performance.</p>
         </div>
       </div>
